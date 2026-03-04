@@ -1,0 +1,455 @@
+{
+  "version": "0.4",
+  "title": "Kaaya Home - Import Starter",
+  "type": "page",
+  "content": [
+    {
+      "id": "a1b2c3d4",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "full",
+        "min_height": {
+          "unit": "px",
+          "size": 720,
+          "sizes": []
+        },
+        "background_background": "classic",
+        "background_image": {
+          "url": "https://via.placeholder.com/1920x1080?text=Hero+Image"
+        },
+        "background_position": "center center",
+        "background_repeat": "no-repeat",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "rgba(0,0,0,0.28)",
+        "padding": {
+          "unit": "px",
+          "top": "140",
+          "right": "0",
+          "bottom": "120",
+          "left": "0",
+          "isLinked": false
+        }
+      },
+      "elements": [
+        {
+          "id": "a1b2c3d5",
+          "elType": "container",
+          "isInner": true,
+          "settings": {
+            "content_width": "boxed",
+            "boxed_width": {
+              "unit": "px",
+              "size": 1200,
+              "sizes": []
+            }
+          },
+          "elements": [
+            {
+              "id": "a1b2c3d6",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "width": {
+                  "unit": "%",
+                  "size": 45,
+                  "sizes": []
+                },
+                "flex_direction": "column",
+                "justify_content": "center",
+                "background_background": "classic",
+                "background_color": "rgba(255,255,255,0.86)",
+                "padding": {
+                  "unit": "px",
+                  "top": "26",
+                  "right": "26",
+                  "bottom": "26",
+                  "left": "26",
+                  "isLinked": true
+                },
+                "border_radius": {
+                  "unit": "px",
+                  "top": "8",
+                  "right": "8",
+                  "bottom": "8",
+                  "left": "8",
+                  "isLinked": true
+                }
+              },
+              "elements": [
+                {
+                  "id": "a1b2c3d7",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "Advanced Skin Care &amp; Rejuvenation",
+                    "size": "xxl"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "a1b2c3d8",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "Discover professional skin care treatments in London, Ontario. Replace this text with your final hero copy.",
+                    "_css_classes": "hero-copy"
+                  },
+                  "elements": []
+                },
+                {
+                  "id": "a1b2c3d9",
+                  "elType": "widget",
+                  "widgetType": "button",
+                  "settings": {
+                    "text": "Book Appointment Today",
+                    "size": "md",
+                    "_css_classes": "btn-brown"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b1c2d3e4",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": { "unit": "px", "size": 1200, "sizes": [] },
+        "background_background": "classic",
+        "background_color": "#E7D0BF",
+        "padding": { "unit": "px", "top": "90", "right": "0", "bottom": "90", "left": "0", "isLinked": false },
+        "_css_classes": "section-pad"
+      },
+      "elements": [
+        {
+          "id": "b1c2d3e5",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": { "title": "Our Services", "size": "small", "align": "center", "_css_classes": "pill-badge" },
+          "elements": []
+        },
+        {
+          "id": "b1c2d3e6",
+          "elType": "widget",
+          "widgetType": "heading",
+          "settings": { "title": "Premium Skin, Hair &amp; Waxing Services in London, Ontario", "size": "xl", "align": "center" },
+          "elements": []
+        },
+        {
+          "id": "b1c2d3e7",
+          "elType": "container",
+          "isInner": true,
+          "settings": { "flex_direction": "row", "gap": "24" },
+          "elements": [
+            {
+              "id": "b1c2d3f1",
+              "elType": "container",
+              "isInner": true,
+              "settings": { "width": { "unit": "%", "size": 33.33, "sizes": [] }, "_css_classes": "hover-lift rounded-media" },
+              "elements": [
+                { "id": "b1c2d3f2", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "https://via.placeholder.com/700x900?text=Skin+Care" } }, "elements": [] },
+                { "id": "b1c2d3f3", "elType": "widget", "widgetType": "heading", "settings": { "title": "SKIN CARE TREATMENTS", "size": "medium", "align": "center" }, "elements": [] }
+              ]
+            },
+            {
+              "id": "b1c2d3f4",
+              "elType": "container",
+              "isInner": true,
+              "settings": { "width": { "unit": "%", "size": 33.33, "sizes": [] }, "_css_classes": "hover-lift rounded-media" },
+              "elements": [
+                { "id": "b1c2d3f5", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "https://via.placeholder.com/700x900?text=Hair+Care" } }, "elements": [] },
+                { "id": "b1c2d3f6", "elType": "widget", "widgetType": "heading", "settings": { "title": "HAIR CARE SERVICES", "size": "medium", "align": "center" }, "elements": [] }
+              ]
+            },
+            {
+              "id": "b1c2d3f7",
+              "elType": "container",
+              "isInner": true,
+              "settings": { "width": { "unit": "%", "size": 33.33, "sizes": [] }, "_css_classes": "hover-lift rounded-media" },
+              "elements": [
+                { "id": "b1c2d3f8", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "https://via.placeholder.com/700x900?text=Waxing" } }, "elements": [] },
+                { "id": "b1c2d3f9", "elType": "widget", "widgetType": "heading", "settings": { "title": "WAXING SERVICES", "size": "medium", "align": "center" }, "elements": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c1d2e3f4",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": { "unit": "px", "size": 1200, "sizes": [] },
+        "padding": { "unit": "px", "top": "90", "right": "0", "bottom": "90", "left": "0", "isLinked": false },
+        "_css_classes": "section-pad"
+      },
+      "elements": [
+        {
+          "id": "c1d2e3f5",
+          "elType": "container",
+          "isInner": true,
+          "settings": { "flex_direction": "row", "gap": "30" },
+          "elements": [
+            {
+              "id": "c1d2e3f6",
+              "elType": "container",
+              "isInner": true,
+              "settings": { "width": { "unit": "%", "size": 46, "sizes": [] } },
+              "elements": [
+                { "id": "c1d2e3f7", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "https://via.placeholder.com/960x720?text=About+Image" }, "_css_classes": "rounded-media" }, "elements": [] }
+              ]
+            },
+            {
+              "id": "c1d2e3f8",
+              "elType": "container",
+              "isInner": true,
+              "settings": { "width": { "unit": "%", "size": 54, "sizes": [] }, "flex_direction": "column" },
+              "elements": [
+                { "id": "c1d2e3f9", "elType": "widget", "widgetType": "heading", "settings": { "title": "About Kaaya Skin &amp; Hair Studio", "size": "small", "_css_classes": "pill-badge" }, "elements": [] },
+                { "id": "c1d2e4a0", "elType": "widget", "widgetType": "heading", "settings": { "title": "Expert Skin, Hair &amp; Beauty Care in London, Ontario", "size": "xl" }, "elements": [] },
+                { "id": "c1d2e4a1", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "Replace with your about content and service highlights." }, "elements": [] },
+                { "id": "c1d2e4a2", "elType": "widget", "widgetType": "icon-list", "settings": { "icon_list": [
+                  { "text": "Clean, relaxing, and client-focused studio environment" },
+                  { "text": "Result-driven services designed for long-term confidence" },
+                  { "text": "Professional skin and hair care backed by expertise" }
+                ]}, "elements": [] },
+                { "id": "c1d2e4a3", "elType": "widget", "widgetType": "button", "settings": { "text": "MORE ABOUT US", "_css_classes": "btn-brown" }, "elements": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "d1e2f3a4",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": { "unit": "px", "size": 1200, "sizes": [] },
+        "background_background": "classic",
+        "background_color": "#1F1F1F",
+        "padding": { "unit": "px", "top": "26", "right": "28", "bottom": "26", "left": "28", "isLinked": false },
+        "border_radius": { "unit": "px", "top": "10", "right": "10", "bottom": "10", "left": "10", "isLinked": true }
+      },
+      "elements": [
+        {
+          "id": "d1e2f3a5",
+          "elType": "container",
+          "isInner": true,
+          "settings": { "flex_direction": "row", "justify_content": "space-between", "align_items": "center", "gap": "20" },
+          "elements": [
+            { "id": "d1e2f3a6", "elType": "widget", "widgetType": "heading", "settings": { "title": "Book Your Consultation Today", "size": "medium", "title_color": "#FFFFFF" }, "elements": [] },
+            { "id": "d1e2f3a7", "elType": "widget", "widgetType": "button", "settings": { "text": "SCHEDULE CONSULTATION", "_css_classes": "btn-brown" }, "elements": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "e1f2a3b4",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": { "unit": "px", "size": 1200, "sizes": [] },
+        "background_background": "classic",
+        "background_color": "#F7F3EF",
+        "padding": { "unit": "px", "top": "90", "right": "0", "bottom": "90", "left": "0", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "e1f2a3b5",
+          "elType": "container",
+          "isInner": true,
+          "settings": { "flex_direction": "row", "gap": "30" },
+          "elements": [
+            {
+              "id": "e1f2a3b6",
+              "elType": "container",
+              "isInner": true,
+              "settings": { "width": { "unit": "%", "size": 55, "sizes": [] }, "flex_direction": "column" },
+              "elements": [
+                { "id": "e1f2a3b7", "elType": "widget", "widgetType": "heading", "settings": { "title": "Why choose us", "size": "small", "_css_classes": "pill-badge" }, "elements": [] },
+                { "id": "e1f2a3b8", "elType": "widget", "widgetType": "heading", "settings": { "title": "Why Clients Trust Kaaya Skin &amp; Hair Studio", "size": "xl" }, "elements": [] },
+                { "id": "e1f2a3b9", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "Replace with your trust message and differentiators." }, "elements": [] }
+              ]
+            },
+            {
+              "id": "e1f2a3c0",
+              "elType": "container",
+              "isInner": true,
+              "settings": { "width": { "unit": "%", "size": 45, "sizes": [] } },
+              "elements": [
+                { "id": "e1f2a3c1", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "https://via.placeholder.com/840x620?text=Why+Choose+Us" }, "_css_classes": "rounded-media" }, "elements": [] }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "f1a2b3c4",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": { "unit": "px", "size": 1200, "sizes": [] },
+        "background_background": "classic",
+        "background_color": "#EFEFEF",
+        "padding": { "unit": "px", "top": "90", "right": "0", "bottom": "90", "left": "0", "isLinked": false }
+      },
+      "elements": [
+        { "id": "f1a2b3c5", "elType": "widget", "widgetType": "heading", "settings": { "title": "Portfolio", "size": "small", "align": "center", "_css_classes": "pill-badge" }, "elements": [] },
+        { "id": "f1a2b3c6", "elType": "widget", "widgetType": "heading", "settings": { "title": "BEFORE &amp; AFTER Gallery", "size": "xl", "align": "center" }, "elements": [] },
+        {
+          "id": "f1a2b3c7",
+          "elType": "container",
+          "isInner": true,
+          "settings": { "flex_direction": "row", "gap": "12" },
+          "elements": [
+            { "id": "f1a2b3c8", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "https://via.placeholder.com/320x520?text=Result+1" } }, "elements": [] },
+            { "id": "f1a2b3c9", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "https://via.placeholder.com/320x520?text=Result+2" } }, "elements": [] },
+            { "id": "f1a2b3d0", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "https://via.placeholder.com/320x520?text=Result+3" } }, "elements": [] },
+            { "id": "f1a2b3d1", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "https://via.placeholder.com/320x520?text=Result+4" } }, "elements": [] },
+            { "id": "f1a2b3d2", "elType": "widget", "widgetType": "image", "settings": { "image": { "url": "https://via.placeholder.com/320x520?text=Result+5" } }, "elements": [] }
+          ]
+        },
+        { "id": "f1a2b3d3", "elType": "widget", "widgetType": "button", "settings": { "text": "VIEW ALL RESULTS", "align": "center", "_css_classes": "btn-brown" }, "elements": [] }
+      ]
+    },
+    {
+      "id": "g1b2c3d4",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": { "unit": "px", "size": 1200, "sizes": [] },
+        "background_background": "classic",
+        "background_color": "#E7D0BF",
+        "padding": { "unit": "px", "top": "90", "right": "0", "bottom": "90", "left": "0", "isLinked": false }
+      },
+      "elements": [
+        { "id": "g1b2c3d5", "elType": "widget", "widgetType": "heading", "settings": { "title": "Reviews", "size": "small", "align": "center", "_css_classes": "pill-badge" }, "elements": [] },
+        { "id": "g1b2c3d6", "elType": "widget", "widgetType": "heading", "settings": { "title": "What Our Clients Say", "size": "xl", "align": "center" }, "elements": [] },
+        {
+          "id": "g1b2c3d7",
+          "elType": "container",
+          "isInner": true,
+          "settings": { "flex_direction": "row", "gap": "18" },
+          "elements": [
+            { "id": "g1b2c3d8", "elType": "widget", "widgetType": "testimonial", "settings": { "testimonial_content": "Add Google review text here.", "testimonial_name": "Client Name 1", "testimonial_job": "Verified Client" }, "elements": [] },
+            { "id": "g1b2c3d9", "elType": "widget", "widgetType": "testimonial", "settings": { "testimonial_content": "Add Google review text here.", "testimonial_name": "Client Name 2", "testimonial_job": "Verified Client" }, "elements": [] },
+            { "id": "g1b2c3e0", "elType": "widget", "widgetType": "testimonial", "settings": { "testimonial_content": "Add Google review text here.", "testimonial_name": "Client Name 3", "testimonial_job": "Verified Client" }, "elements": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "h1c2d3e4",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": { "unit": "px", "size": 1200, "sizes": [] },
+        "background_background": "classic",
+        "background_image": { "url": "https://via.placeholder.com/1920x900?text=Appointment+Background" },
+        "background_position": "center center",
+        "background_size": "cover",
+        "background_overlay_background": "classic",
+        "background_overlay_color": "rgba(0,0,0,0.52)",
+        "padding": { "unit": "px", "top": "90", "right": "0", "bottom": "90", "left": "0", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "h1c2d3e5",
+          "elType": "container",
+          "isInner": true,
+          "settings": { "flex_direction": "row", "gap": "26" },
+          "elements": [
+            {
+              "id": "h1c2d3e6",
+              "elType": "container",
+              "isInner": true,
+              "settings": { "width": { "unit": "%", "size": 45, "sizes": [] }, "flex_direction": "column" },
+              "elements": [
+                { "id": "h1c2d3e7", "elType": "widget", "widgetType": "heading", "settings": { "title": "Trusted Beauty Experts", "size": "small", "_css_classes": "pill-badge" }, "elements": [] },
+                { "id": "h1c2d3e8", "elType": "widget", "widgetType": "heading", "settings": { "title": "Book Your Skin &amp; Hair Specialist Appointment", "size": "xl", "title_color": "#FFFFFF" }, "elements": [] },
+                { "id": "h1c2d3e9", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "How this works: Fill out the form, we confirm details, and your appointment is scheduled.", "text_color": "#FFFFFF" }, "elements": [] }
+              ]
+            },
+            {
+              "id": "h1c2d3f0",
+              "elType": "container",
+              "isInner": true,
+              "settings": {
+                "width": { "unit": "%", "size": 55, "sizes": [] },
+                "background_background": "classic",
+                "background_color": "#FFFFFF",
+                "border_radius": { "unit": "px", "top": "18", "right": "18", "bottom": "18", "left": "18", "isLinked": true },
+                "padding": { "unit": "px", "top": "24", "right": "24", "bottom": "24", "left": "24", "isLinked": true }
+              },
+              "elements": [
+                {
+                  "id": "h1c2d3f1",
+                  "elType": "widget",
+                  "widgetType": "form",
+                  "settings": {
+                    "form_name": "Book Appointment",
+                    "form_fields": [
+                      { "field_type": "text", "field_label": "Name", "required": "true" },
+                      { "field_type": "email", "field_label": "E-mail", "required": "true" },
+                      { "field_type": "tel", "field_label": "Phone No.", "required": "true" },
+                      { "field_type": "date", "field_label": "dd-mm-yyyy", "required": "true" },
+                      { "field_type": "select", "field_label": "Select Treatment" },
+                      { "field_type": "select", "field_label": "Select Service" },
+                      { "field_type": "textarea", "field_label": "Write Message" }
+                    ],
+                    "button_text": "SUBMIT"
+                  },
+                  "elements": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "i1d2e3f4",
+      "elType": "container",
+      "isInner": false,
+      "settings": {
+        "content_width": "boxed",
+        "boxed_width": { "unit": "px", "size": 1200, "sizes": [] },
+        "background_background": "classic",
+        "background_color": "#0F1013",
+        "padding": { "unit": "px", "top": "60", "right": "0", "bottom": "20", "left": "0", "isLinked": false }
+      },
+      "elements": [
+        {
+          "id": "i1d2e3f5",
+          "elType": "container",
+          "isInner": true,
+          "settings": { "flex_direction": "row", "gap": "24" },
+          "elements": [
+            { "id": "i1d2e3f6", "elType": "widget", "widgetType": "heading", "settings": { "title": "KAAYA", "title_color": "#FFFFFF" }, "elements": [] },
+            { "id": "i1d2e3f7", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "Quick Links · Our Services · Get In Touch", "text_color": "#CCCCCC" }, "elements": [] }
+          ]
+        },
+        { "id": "i1d2e3f8", "elType": "widget", "widgetType": "text-editor", "settings": { "editor": "<p style=\"text-align:center;color:#999\">Copyright © 2026 Kaaya Skin &amp; Hair Studio.</p>" }, "elements": [] }
+      ]
+    }
+  ],
+  "page_settings": {
+    "hide_title": "yes"
+  }
+}
